@@ -1,12 +1,11 @@
-# heroku-buildpack-ffmpeg-latest
+# buildpack-ffmpeg
 
-A Heroku buildpack for ffmpeg that always downloads the latest [static build](http://johnvansickle.com/ffmpeg/).
-Unlike other build packs, I never compile anything.
+A Heroku buildpack for ffmpeg with SSL support.
 
 ## Usage
 
 Add the following to your `.buildpacks`:
 
 ```
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git
+https://github.com/kitcast/buildpack-ffmpeg.git
 ```
